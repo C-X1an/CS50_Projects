@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+<table>
+    <h2>A share of {{ valuations["name"] }} costs {{valuations["price"] | usd }}</h2>
+</table>
+
+{% endblock %}

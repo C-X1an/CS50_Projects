@@ -1,0 +1,70 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  margin-left: -50%;
+}
+
+
+#Intro {
+  font-weight: lighter;
+  font-size: 90px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: monospace;
+}
+
+
+#name {
+  font-weight: bold;
+  font-size: 90px;
+  text-align: left;
+  white-space: nowrap;
+  font-family: monospace;
+  overflow:hidden;
+}
+
+#description {
+  text-align: left;
+  font-size:35px;
+  padding-right: 5%;
+  text-decoration: underline;
+  font-weight: 50;
+}
+
+
+#button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* CSS */
+#about-me {
+  background-color: #000000;
+  margin-left: -2.5in;
+  border: none;
+  color: white;
+  padding: 30px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: 'Times New Roman', serif;
+}
+
+#resume {
+  position:absolute;
+  background-color: #ffffff; /* Green */
+  border: none;
+  margin-left:40px;
+  padding: 30px 27px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: 'Times New Roman', serif;
+}

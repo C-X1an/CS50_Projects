@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Symbol</th>
+        <th scope="col">Shares</th>
+        <th scope="col">Price</th>
+        <th scope="col">TOTAL</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% if zipped_list != None %}
+        {% for row, price in zipped_list %}
+        <tr>
+          <td>{{ row["symbol"] }}</td>
+          <td>{{ row["quantity"] }}</td>
+          <td>{{ price | usd }}</td>
+          <td>{{ (price * row["quantity"]) | usd }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+      <tfooter>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Cash</td>
+          <td>{{ cash | usd}}</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>TOTAL</td>
+          <td>{{ total_balance | usd }}</td>
+        </tr>
+      </tfooter>
+    {% else %}
+    {% endif %}
+  </table>
+
+{% endblock %}

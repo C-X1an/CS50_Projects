@@ -1,0 +1,26 @@
+#redirects {
+    font-size:22px;
+    font-weight:480;
+}
+
+video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+#linkedin, #discord, #twitter, #gmail, #github {
+margin-top: 10px;
+font-size: 36px;
+}
+
+#projects {
+    position:relative;
+    right:10px;
+    font-size:24px;
+    font-weight:400;
+}
+
