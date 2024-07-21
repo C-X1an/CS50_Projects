@@ -1,0 +1,19 @@
+#job_accordion {
+    position:absolute;
+    width:60%;
+    left: 15%;
+    top: 25%;
+}
+
+#intro {
+    position: absolute;
+    left:15%;
+    top:18%;
+}
+
+#job_title {
+    position:relative;
+    font-weight:bold;
+    left: 7px;
+
+}

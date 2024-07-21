@@ -1,0 +1,45 @@
+#nav-div {
+    background-color:black;
+    text-align:center;
+}
+
+#menu-options {
+    color: white;
+}
+
+body {
+    background-colour:"black";
+}
+
+.centered {
+    text-align:center
+}
+
+.image-container {
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 160%;
+    left: 15%;
+    color: white;
+    font-family: "Montserrat-Bold", Sans-serif;
+    font-weight: 700;
+}
+
+#intro {
+    font-size: 20px;
+    position: absolute;
+    top: 140%;
+    left: 51%;
+    color: white;
+}
+
+#circle {
+    position: absolute;
+    float: right;
+    top: 150%;
+    left: 85%;
+
+}
