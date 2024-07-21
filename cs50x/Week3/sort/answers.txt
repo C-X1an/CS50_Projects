@@ -1,0 +1,24 @@
+sort1 uses: bubble sort
+
+random5000: 0.069s
+sorted 5000: 0.071s
+reversed 5000: 0.72s
+
+How do you know?: Takes a very long time to sort reversed5000 as most numbers require swapping.
+
+sort2 uses: merge sort
+
+sorted5000: 0.035s
+random5000: 0.067s
+reversed5000: 0.048s
+
+
+How do you know?: sort2 has the shortest time among all others and performs equally well for all 3 txt files.
+
+sort3 uses: selection sort
+
+revesed5000: 0.122s
+sorted5000: 0.049s
+random5000: 0.110s
+
+How do you know?: sort3 sorts the sorted5000 txt significantly faster than the 2 other files as the smallest digit is already in the front.
