@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+flask_session/
+**/flask_session/
+cs50x/Week9/finance/finance.db
+cs50x/Week9/finance/finance.db-*
